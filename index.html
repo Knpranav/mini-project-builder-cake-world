@@ -4,10 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Document</title><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+ 
 </head>
 <body>
-    
+
+<div class="page">
+    <div id="top">
+                   <div class="title">
+                              <h2>Cake World</h2>
+                             <img id="logo" src="assets/cake.png" alt="">
+                    </div>
+
+                    <div id="cake">
+
+                      <div class="div"><h4>Your cake</h4></div> <br>
+
+                      <div class="layers"> </div>
+                         
+                           
+                    </div>
+
+                     
+                     <div class="button">
+                           <button id="chocolate"  onclick="renderChocolate()">chocolate</button>
+                           <button id ="strawberry" onclick="renderStrawberry()">strawberry</button>
+                           <button id="butterscotch" onclick="renderButterscotch()">butterscotch</button>
+                           <button id ="vanilla"  onclick="renderVanilla()">vanilla</button>
+                           <button id="redvelvet" onclick="renderRedvelvet()">redvelvet</button> <br><br>
+                           <button id="buy" onclick="Buy()">Buy</button>
+                     </div>
+          </div>
+
+ 
+
+        <div class="container">
+              <div class="wrap">
+                  <div class="innerBox">
+                           Chocolate- 300 <br>
+                          Strawberry- 100 <br>
+                         Butterscotch- 200 <br>
+                        Vanilla- 250 <br>
+                       Redvelvet- 350 <br>
+                </div>
+                         <img id="price"src="assets/list_template.png" alt="">
+             </div>
+           
+             <div class="wrap2"> 
+              
+                <div class="innerBox2">
+                BILL :
+                 <div class="totalBill"></div>
+             </div>
+
+                <img id="bill" src="assets/list_template.png" alt="">
+             </div>
+                         
+        </div>
+     
+  
+   
+ </div>
+ <script src="script.js"></script>
 </body>
-<script src="/script.js"></script>
+
 </html>
